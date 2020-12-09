@@ -19,6 +19,7 @@ class ApplicationController < Sinatra::Base
   post "/signup" do
     #your code here
 
+
   end
 
   get '/account' do
@@ -33,6 +34,7 @@ class ApplicationController < Sinatra::Base
 
   post "/login" do
     ##your code here
+    
   end
 
   get "/failure" do
