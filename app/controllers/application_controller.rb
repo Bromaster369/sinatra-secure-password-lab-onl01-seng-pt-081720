@@ -40,7 +40,7 @@ class ApplicationController < Sinatra::Base
     ##your code here
     user = find_by(:username => params[:username])
     
-    if user && user.authenticate 
+    if user && user.authenticate(params[:password])
   end
 
   get "/failure" do
